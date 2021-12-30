@@ -1,169 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Active/current link */
-.navbar a.active {
-  background-color: #666;
-  color: white;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>My Website</h1>
-  <p>A <b>responsive</b> website created by me.</p>
-</div>
-
-<div class="navbar">
-  <a href="#" class="active">Home</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
-</div>
-
-<div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
-  </div>
-  <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
-
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row m-auto">
+        <div class="col-md-3">
+          <div id="image1">
+            <img id='pro-pic'src="https://github.com/ashutoshmcakiet/Resume/blob/main/picture/img.jpg?raw=true" alt="Profile picture">
+            <h1>NAKUL SINGH GAUR</h1>
+            <h6 style="opacity:0.5">Coding and Web Technology Enthusiast</h6>
+            <div class="row" id='row'>
+              <div class="col" id='logo'>
+          <a href="https://youtube.com/c/AshuChaudhary"><img src="https://github.com/ashutoshmcakiet/Resume/blob/main/picture/youtube.png?raw=true" alt="youtube"></a>
+              </div>
+              <div class="col" id='logo'>
+            <a href="https://www.instagram.com/iashu_chaudhary/"><img src="https://github.com/ashutoshmcakiet/Resume/blob/main/picture/insta.png?raw=true" alt="instagram"></a>
+              </div>
+              <div class="col" id='logo'>
+                <a href="https://www.facebook.com/ashu.7291"><img src="https://github.com/ashutoshmcakiet/Resume/blob/main/picture/facebook.png?raw=true" alt="facebook"></a>
+              </div>
+              <div class="col" id='logo'>
+                <a href="https://www.linkedin.com/mwlite/in/ashutoshmcakiet"><img src="https://github.com/ashutoshmcakiet/Resume/blob/main/picture/linkedin.png?raw=true" alt="linkedin"></a>
+              </div>
+              <div class="col" id='logo'>
+                <a href="https://github.com/ashutoshmcakiet"><img src="https://github.com/ashutoshmcakiet/Resume/blob/main/picture/github.png?raw=true" alt="github"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row" >
+            <div class="col" id='color0'>
+              <h1 style="color:#347DEB">Carrer Objective</h1>
+              <h6>To obtain a position that will enable me to use my strong organizational skills, educational background and ability to work well with people and contribute sincere and effort in the growth of the organization.Seeking exciting acting roles, to expand acting skills and demonstrate the potential.</h6>
+            </div>
+            </div>
+        <div class="row" id='color'>
+          <div class="col">
+            <h1 style="color:#347DEB">Academic Achievment</h1>
+            <table class='m-auto' border='1'>
+            <tr>
+              <th>Degree</th>
+              <th>University/Board</th>
+              <th>Percentage</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>10th</td>
+              <td>CBSE Board</td>
+              <td>7.6 CGPA</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>12th</td>
+              <td>CBSE Board</td>
+              <td>71%</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>BCA</td>
+              <td>CCS University</td>
+              <td>61.67%</td>
+              <td>2020</td>
+            </tr>
+            </table>
+          </div>
+          <div class="col">
+            <h1 style="color:#347DEB">Other Achiement</h1>
+         <h6><ul>
+           <li>114K+ Youtube Subscriber</li>
+           <li>5+ Songs Directed</li>
+           <li>Great Editing Skills</li>
+           <li>Photography/Videography</li>
+        </ul></h6>
+          </div>
+        </div>
+        <div class="row" id='color'>
+          <div class="col">
+        <h1 style="color:#347DEB">Personal Details</h1>
+        <h6>Father's Name - Mr.Atul kumar Singh</h6>
+        <h6>Date of Birth - 13-11-1999</h6>
+        <h6>Gender - Male</h6>
+        <h6>Language Known - English,Hindi</h6>
+        <h6>nationality - Indian</h6>
+      </div>
+      <div class="col">
+          <div class="row" style="margin-top:10px">
+            <h1 style="color:#347DEB">Hobby</h1>
+            <h6>
+              <ul>
+                <li>Acting</li>
+                <li>Direction</li>
+                <li>Writing</li>
+                <li>Travelling</li>
+                <li>Riding</li>
+                <li>Cricket</li>
+              </ul>
+            </h6>
+          </div>
+          <div class="row">
+            <h1 style="color:#347DEB">Quality</h1>
+            <h6>
+            <ul>
+            <li>Good Communication</li>
+            <li>Self Motivated</li>
+            <li>Creative</li>
+            <li>Fast Learner</li>
+            </ul>
+            </h6>
+          </div>
+        </div>
+        </div>
+        <div class="row" id='color'>
+      <div class="col" id='color'>
+        <h1 style="color:#347DEB">Declaration</h1>
+        <h6>I Do Herebly Delcare that above given information is true to the best of my knowledge and belief.</h6>
+      </div>
+      </div>
+    </div>
+    </div>
+  </body>
 </html>
