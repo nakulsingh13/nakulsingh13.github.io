@@ -1,0 +1,73 @@
+body
+{
+   background:linear-gradient(90deg,#a7aba9,white,white,#a7aba9);
+}
+.container-fluid
+{
+margin-top:20px;
+}
+
+#image1
+{
+  width:100%;
+  background-color: white;
+  text-align: center;
+}
+#image1 h1
+{
+  margin-top: 25px;
+  font-size: 1.5em;
+  letter-spacing:.2em;
+  font-weight:750;
+  font-style: italic;
+}
+#image1 h6
+{
+  letter-spacing:.2em;
+  padding-bottom:35px;
+  border-bottom: 2px dashed #a7aba9;
+}
+#pro-pic
+{
+  max-width: 100%;
+  height: auto;
+}
+#row
+{
+  padding:20px 5px 50px 5px;
+
+}
+#logo
+{
+  width:20%;
+}
+#logo img
+{
+  max-width: 100%;
+  height: auto;
+}
+.col table
+{
+  text-align: center;
+  margin-top: 1px;
+}
+th
+{
+  background-color:#0024ed;
+  padding:5px;
+  color: white;
+}
+td
+{
+  background:transparet;
+
+}
+#color0
+{
+  background-color: white;
+  margin-bottom: 15px;
+}
+#color
+{
+  background-color: white;
+}
